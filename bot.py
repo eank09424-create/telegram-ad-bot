@@ -42,7 +42,7 @@ async def play(call):
         return
 
     kb = InlineKeyboardMarkup()
-    kb.add(InlineKeyboardButton("👉 Watch Ad", url=ADSTERRA_LINK))
+    kb.add(InlineKeyboardButton("👉 Watch Video", url=ADSTERRA_LINK))
     await call.message.answer("Click below 👇", reply_markup=kb)
 
 executor.start_polling(dp)
