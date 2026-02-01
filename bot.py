@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils import executor
 
 TOKEN = "8574531684:AAGfuLYkRkvRilIG8wc6EuVdBlChdycAmvc"
-CHANNEL = "https://t.me/vip_deals_here"
+CHANNEL = "@vip_deals_here"
 ADSTERRA_LINK = "https://www.effectivegatecpm.com/ybh3jtc9w?key=d2d0de24d378fcbb8c8ec854f6450563"
 
 bot = Bot(token=TOKEN)
